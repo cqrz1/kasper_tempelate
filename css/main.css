@@ -118,14 +118,6 @@ header nav ul a {
   padding: 50px 15px;
   z-index: 1;
   position: relative;
-}header nav ul::before{
-  content: " ";
-    border: solid 32px;
-    border-color: transparent transparent rgb(84, 87, 114);
-    position: absolute;
-    right: 64px;
-    top: -62px;
-
 }
 header nav ul a.active,
 header nav ul a:hover {
