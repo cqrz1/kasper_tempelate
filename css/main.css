@@ -116,11 +116,22 @@ header nav ul a {
   font-size: 14px;
   transition: 0.3s;
   padding: 50px 15px;
+  z-index: 1;
+  position: relative;
+}header nav ul::before{
+  content: " ";
+    border: solid 32px;
+    border-color: transparent transparent rgb(84, 87, 114);
+    position: absolute;
+    right: 64px;
+    top: -62px;
+
 }
 header nav ul a.active,
 header nav ul a:hover {
   color: var(--main-color);
   border-bottom: 1px solid var(--border-color);
+  
 }
 header nav .form {
   width: 40px;
